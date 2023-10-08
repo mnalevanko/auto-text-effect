@@ -54,7 +54,7 @@ const showWord = (word) => {
       showWord(word);
     }, 200);
   } else {
-    // If the displayed word is "I am Michal Nalevanko", don't hide it and end the animation
+    // If the displayed word is "Michal Nalevanko", don't hide it and end the animation
     if (word === "Michal Nalevanko") {
       return;
     }
